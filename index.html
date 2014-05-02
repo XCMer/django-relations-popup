@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Relational Popup</title>
+    </head>
+    <body>
+
+        <select name="user relational-popup" id="user" data-relational-name="user">
+            <option value="">------</option>
+            <option value="1">User 1</option>
+        </select>
+        <button onclick="openRelationalPopup('user');">New User</button>
+
+        <select name="role relational-popup" id="role" data-relational-name="role">
+            <option value="">------</option>
+            <option value="1">Moderator</option>
+        </select>
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="js/relational_popup.js"></script>
+        <script src="js/relational_config.js"></script>
+    </body>
+</html>

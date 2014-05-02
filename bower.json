@@ -1,0 +1,21 @@
+{
+  "name": "foreignkeys",
+  "version": "1.0.0",
+  "authors": [
+    "Raahul Seshadri <raahul@musictypes.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://crossplatform.net",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "~2.1.1",
+    "bootstrap": "~3.1.1"
+  }
+}
